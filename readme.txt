@@ -18,27 +18,30 @@ There are Mind Mapping software out there allowing you to generate such a tree, 
 
 
 **Features**
-*   Highlights page icons on roll-over to highlight pages and their child pages.
+*	Highlights page icons on roll-over to highlight pages and their child pages.
 *	Optimizes page names wrapping, keeping them compact and expanding them on rollover to reveal the whole page's name.
 *	Allows navigating to the clicked page in a new window.
 *	Fullscreen mode for better browsing the tree.
 
 **Future features**
-*   Option to get the actual current theme's navigation menu, which could have hidden pages.
+*	Option to get the actual current theme's navigation menu, which could have hidden pages.
 *	Option for displaying the content a human been sees through the theme or the one a search engine sees (built from sitemap.xml file)
+*	Compatibility with Internet Explorer
 
 Don't forget to rate it and tell it works! &rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;
 == Installation ==
 
-Just download it from my website, then go to your plugins dashboard panel and chose "Add New". There, browse your fomputer for the file you just downloaded and hit "upload". Activate it and find it on your dasboard. You can also download it from wordpress plugins directory.
+Just download it from my website, then go to your plugins dashboard panel and chose "Add New". There, browse your computer for the file you just downloaded and hit "upload". Activate it and find it on your dashboard. You can also download it from Wordpress plugins directory.
+
+Designed for modern browsers. Best Viewed in Google Chrome (sorry Internet Explorer)
 
 == Instructions ==
 
 After installing and activating the plugin, your new widget will appear in the dashboard (/wp-admin)
 
-You can find instructions on how to organize your content for a good indexing and pagerank on search engines at http://gallantfish.com/blog/
+You can find instructions on how to organize your content for a good indexing and pagerank on search engines at [Gallant Fish Internet Marketing](http://gallantfish.com/blog/)
 
-Check out [Graphic WP Sitemap](http://socialblogsitewebdesign.com/wordpress-plugins/downloads-box) for bug reports, updates and help
+Check out [Graphic WP Sitemap](http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap) for bug reports, updates and help
 
 
 == Screenshots ==
