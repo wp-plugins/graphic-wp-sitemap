@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.downloads {
+	background-color: #FCF7E9;
+	padding: 15px 10px 3px 15px;
+	border: 1px solid #E7E0C4;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-bottom: 20px;
+	position: relative;
+	}
+.downloads_list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.downloads.downloads_list {
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.downloads a {
+	text-indent: 20px;
+	background-image: url(_img/page_white.png);
+	background-repeat: no-repeat;
+	background-position: left 2px;
+	display: block;
+	line-height: 18px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	color: #C99;
+}
+a.icon-pps {
+	background-image: url(filetype_icons/page_white_powerpoint.png);
+}
+a.icon-pdf {
+	background-image: url(filetype_icons/page_white_acrobat.png);
+}
+a.icon-ai {
+	background-image: url(filetype_icons/icon_page_illustrator.png);
+}
+a.icon-psd {
+	background-image: url(filetype_icons/icon_page_photoshop.png);
+}
+a.icon-zip {
+	background-image: url(filetype_icons/page_white_zip.png);
+}
+a.icon-ppt {
+	background-image: url(filetype_icons/page_white_powerpoint.png);
+}
+a.icon-doc {
+	background-image: url(filetype_icons/page_white_msword.png);
+}
+a.icon-xls {
+	background-image: url(filetype_icons/page_white_excel.png);
+}
+a.icon-php {
+	background-image: url(filetype_icons/page_white_php.png);
+}
+a.icon-js {
+	background-image: url(filetype_icons/page_white_js.png);
+}
+a.icon-jpg {
+	background-image: url(filetype_icons/page_white_jpg.png);
+}
+a.icon-png {
+	background-image: url(filetype_icons/page_white_png.png);
+}
+.downloads h4 {
+	color: #B7665B;
+	font-size: 15px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #BDD2C1;
+}
+.downloads h4 strong {
+	color: #066;
+}
+.logged-in .downloads a {
+	color: #933;
+}
+p.dlb_linklove {
+	display: block;
+	text-align: right;
+	margin: 0px;
+}
+p.dlb_linklove a {
+	display: inline;
+}
+#callout {
+	-moz-border-radius: 16px;
+	-khtml-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-webkit-box-shadow: -3px 6px 16px #380a00;
+	-moz-box-shadow: -3px 6px 16px #380a00;
+	color: #900;
+	background-color: #EBD097;
+	border: 6px solid #754C27;
+	position: absolute;
+	display: block;
+	padding: 21px;
+	font-size: 12px;
+	bottom: 0px;
+	width: 120px;
+	box-shadow: -3px 6px 16px #380a00;
+	line-height: 140%;
+	z-index: 850;
+	text-align: center;
+	left: -60px;
+	white-space: nowrap;
+	background-image: url(filetype_icons/callout_tip.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+#callout_cont {
+	overflow: visible;
+	position: relative;
+	height: 1px;
+	text-align: center;
+	float: right;
+	width: 1px;
+}
