@@ -35,20 +35,19 @@ Just download it from my website, then go to your plugins dashboard panel and ch
 
 Designed for modern browsers. Best Viewed in Google Chrome (sorry Internet Explorer)
 
+== Screenshots ==
+
+1. Rollover any first and second level page to highlight it as a group with its children.
+2. Rollover any third level page to reveal the whole name.
+3. Click the "Fullscreen" link to expand the widget to an overlay fullscreen mode.
+
 == Instructions ==
 
 After installing and activating the plugin, your new widget will appear in the dashboard (/wp-admin)
 
 You can find instructions on how to organize your content for a good indexing and pagerank on search engines at [Gallant Fish Internet Marketing](http://gallantfish.com/blog/)
 
-Check out [Graphic WP Sitemap](http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap) for bug reports, updates and help
-
-
-== Screenshots ==
-
-1. Rollover any first and second level page to highlight it as a group with its children.
-2. Rollover any third level page to reveal the whole name.
-3. Click the "Fullscreen" link to expand the widget to an overlay fullscreen mode.
+Check out [Graphic WP Sitemap](http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap) for bug reports, updates and help.
 
 == Changelog ==
 
