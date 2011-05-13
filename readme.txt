@@ -16,13 +16,15 @@ SEO experts and developers have a new way to graphically represent the informati
 There are Mind Mapping software out there allowing you to generate such a tree, but none of them come in WP plugin flavor like **Graphic WP Sitemap**, extracting the pages right from WP database. No need to type and re-arrange pages names or branches.
 
 
-=== Features ===
+= Features =
+
 *	Highlights page parents and children on roll-over.
 *	Easy to browse with neat design. Reveals long page names on rollover.
 *	Allows navigating to the clicked page in a new window.
 *	Fullscreen mode for better browsing big websites.
 
-=== Future features ===
+= Future features =
+
 *	Option to get the current theme's navigation menu, which could be hidding pages.
 *	Option for displaying the content seen by human beens in a browser or by search engines (built from sitemap.xml file)
 *	Compatibility with Internet Explorer
