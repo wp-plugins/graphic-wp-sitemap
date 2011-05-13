@@ -6,8 +6,7 @@ Requires at least: 2.7
 Tested up to: 3.1.2
 Stable tag: 0.9
 
-SEO experts and developers have a new way to graphically represent the information architecture for a website to make clients understand how important the distribution of content is.
-**Graphic WP Sitemap** adds a Dashboard widget to your admin area that generates a pretty tree graphic, aka Mind Map, ia, directory tree, etc., for you to easily explore your blog's content structure.
+The very first graphic sitemap for Wordpress, ever. A pretty information architecture tree will show you the distribution of your site's content.
 
 == Description ==
 
@@ -18,14 +17,14 @@ There are Mind Mapping software out there allowing you to generate such a tree, 
 
 
 **Features**
-*	Highlights page icons on roll-over to highlight pages and their child pages.
-*	Optimizes page names wrapping, keeping them compact and expanding them on rollover to reveal the whole page's name.
+*	Highlights page parents and children on roll-over.
+*	Easy to browse with neat design. Reveals long page names on rollover.
 *	Allows navigating to the clicked page in a new window.
-*	Fullscreen mode for better browsing the tree.
+*	Fullscreen mode for better browsing big websites.
 
 **Future features**
-*	Option to get the actual current theme's navigation menu, which could have hidden pages.
-*	Option for displaying the content a human been sees through the theme or the one a search engine sees (built from sitemap.xml file)
+*	Option to get the current theme's navigation menu, which could be hidding pages.
+*	Option for displaying the content seen by human beens in a browser or by search engines (built from sitemap.xml file)
 *	Compatibility with Internet Explorer
 
 Don't forget to rate it and tell it works! &rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;&rang;
