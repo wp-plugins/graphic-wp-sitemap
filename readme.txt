@@ -3,10 +3,10 @@ Contributors: Sergio Zambrano
 Tags: sitemap, graphic, css, tree, vertical, icons, pages, links, organization, architecture, information, dashboard
 Donate link: http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap/
 Requires at least: 2.7
-Tested up to: 3.1.2
-Stable tag: 0.9
+Tested up to: 3.1.3
+Stable tag: 1.0
 
-The very first graphic sitemap for Wordpress, ever. A pretty information architecture tree will show you the distribution of your site's content.
+The very first graphic sitemap for Wordpress, ever. A pretty mind map (I.A. tree) will show you the distribution of your site's content.
 
 == Description ==
 
@@ -25,7 +25,7 @@ There are Mind Mapping software out there allowing you to generate such a tree, 
 
 = Future features =
 
-*	Option to get the current theme's navigation menu, which could be hidding pages.
+*	Widget plugin and shortcodes, to place the Graphic Sitemap in any page or sidebar (feature already on sale from my site)
 *	Option for displaying the content seen by human beens in a browser or by search engines (built from sitemap.xml file)
 *	Compatibility with Internet Explorer
 
@@ -48,11 +48,16 @@ After installing and activating the plugin, your new widget will appear in the d
 
 You can find instructions on how to organize your content for a good indexing and pagerank on search engines at [Gallant Fish Internet Marketing](http://gallantfish.com/blog/)
 
-Check out [Graphic WP Sitemap](http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap) for bug reports, updates and help.
+Check out [Graphic WP Sitemap](http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap) to buy the extra code to use this great plugin on any page or sidebar, for bug reports, updates and help.
 
 == Changelog ==
 
 = 0.9.0 =
 
 Graphic WP Sitemap Release.
+
+= 1.0.0 =
+
+Sitemap CSS rules made more specific to prevent being overridden by theme's
+Enabled for paid upgrade to make the Sitemap public through pages or sidebars.
 
