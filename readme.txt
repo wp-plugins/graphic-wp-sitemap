@@ -25,7 +25,7 @@ There are Mind Mapping software out there allowing you to generate such a tree, 
 
 = Future features =
 
-*	Widget plugin and shortcodes, to place the Graphic Sitemap in any page or sidebar (feature already on sale from my site)
+*	Widget and shortcodes, to place the Graphic Sitemap in any page or sidebar (feature already on sale from my site)
 *	Option for displaying the content seen by human beens in a browser or by search engines (built from sitemap.xml file)
 *	Compatibility with Internet Explorer
 
