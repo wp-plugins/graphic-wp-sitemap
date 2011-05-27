@@ -15,6 +15,7 @@ jQuery("#Gsm_modal_inner a").attr({ target: "_blank" });
 jQuery('a[name=modal]').click(function(e) {
 	//Cancel the link behavior
 	e.preventDefault();
+
 	//Get the A tag
 	var Gsm_modal_id = jQuery(this).attr('href');
  
@@ -30,6 +31,7 @@ jQuery('a[name=modal]').click(function(e) {
 		var winH = jQuery(window).height();
 		jQuery('#Gsm_modal_outer').css('top',  winH/2-jQuery('ul#ia_topmenu').height()/2);
 		jQuery('#Gsm_modal_outer').css('max-height', winH-100);
+		jQuery('body').scrollTop( 0 );
 	});    
  });
  
