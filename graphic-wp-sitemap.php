@@ -37,7 +37,7 @@ function graphicSitemapWidget(){
 	if(function_exists('wp_nav_menu')) {
 	wp_nav_menu( array( 'menu_id'=> 'ia_toplevel', 'menu_class'=> false, 'container'=> false ) );
 	} else {
-		wp_list_pages('sort_column=menu_order&title_li=');
+	echo '<ul id="ia_toplevel">' . wp_list_pages('echo=0&sort_column=menu_order&title_li=') . '</ul>';
 	}
 	echo '</li></ul>
 	<a href="#" class="close">Close it</a>';
