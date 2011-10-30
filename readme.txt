@@ -1,5 +1,5 @@
 === Graphic WP Sitemap ===
-Contributors: Sergio Zambrano
+Contributors: SergioZambrano
 Tags: sitemap, graphic, css, tree, vertical, icons, pages, links, organization, architecture, information, dashboard
 Donate link: http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap/
 Requires at least: 2.7
@@ -58,7 +58,7 @@ Check out [Graphic WP Sitemap](http://socialblogsitewebdesign.com/wordpress-plug
 
 = 1.1.0 =
 
-Fixed ul to keep compatibility with navigation menus created with wp_list_pages(), prior to wp menus. If you the sitemap looked weird in your old theme, it'll look fine now.
+Fixed ul to keep compatibility with navigation menus created with wp_list_pages(), prior to wp menus. If your sitemap looked weird in your old theme, it'll look fine now.
 
 = 1.0.0 =
 
