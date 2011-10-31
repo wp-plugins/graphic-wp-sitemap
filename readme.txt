@@ -1,5 +1,5 @@
 === Graphic WP Sitemap ===
-Contributors: SergioZambrano
+Contributors: SocialBlogsite
 Tags: sitemap, graphic, css, tree, vertical, icons, pages, links, organization, architecture, information, dashboard
 Donate link: http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap/
 Requires at least: 2.7
