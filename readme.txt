@@ -4,7 +4,7 @@ Tags: sitemap, graphic, css, tree, vertical, icons, pages, links, organization, 
 Donate link: http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap/
 Requires at least: 2.7
 Tested up to: 3.1.3
-Stable tag: 1.0
+Stable tag: 1.1
 
 The very first graphic sitemap for Wordpress, ever. A pretty mind map (I.A. tree) will show you the distribution of your site's content.
 
