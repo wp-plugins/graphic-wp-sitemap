@@ -3,7 +3,7 @@
 Plugin Name: Graphic WP Sitemap
 Plugin URI: http://SocialBlogsiteWebDesign.com/plugins/Graphic-WP-Sitemap
 Description: Represents your website's sitemap in a graphic way you can analyze to plan and fix your content for proper crawling by search engines like Google.
-Version: 1.1
+Version: 1.0
 Author: SergioZambrano
 Author URI: http://SocialBlogsiteWebDesign.com/about
 License: GPL2
@@ -37,7 +37,7 @@ function graphicSitemapWidget(){
 	if(function_exists('wp_nav_menu')) {
 	wp_nav_menu( array( 'menu_id'=> 'ia_toplevel', 'menu_class'=> false, 'container'=> false ) );
 	} else {
-	echo '<ul id="ia_toplevel">' . wp_list_pages('echo=0&sort_column=menu_order&title_li=') . '</ul>';
+		wp_list_pages('sort_column=menu_order&title_li=');
 	}
 	echo '</li></ul>
 	<a href="#" class="close">Close it</a>';

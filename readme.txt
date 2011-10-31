@@ -3,8 +3,8 @@ Contributors: SergioZambrano
 Tags: sitemap, graphic, css, tree, vertical, icons, pages, links, organization, architecture, information, dashboard
 Donate link: http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap/
 Requires at least: 2.7
-Tested up to: 3.2.1
-Stable tag: 1.1
+Tested up to: 3.1.3
+Stable tag: 1.0
 
 The very first graphic sitemap for Wordpress, ever. A pretty mind map (I.A. tree) will show you the distribution of your site's content.
 
@@ -46,25 +46,18 @@ Designed for modern browsers. Best Viewed in Google Chrome (sorry Internet Explo
 
 After installing and activating the plugin, your new widget will appear in the dashboard (/wp-admin)
 
-To add the graphic sitemap in any page or post, just type [graphic-sitemap] in the post editor (purchase upgrade code from my site). To remove the thankyou link to my site just add the params Gsm_nocredit="TRUE" inside the square brackets.
-
-To add a graphic sitemap to a sidebar, just drag the wp graphic sitemap widget to the desired sidebar. I recommend you use an horizontal sidebar rather. Vertical sidebars are too narrow for the sidebar to look good. If your theme lacks of one, You can hire me to add one to your theme.
-
 You can find instructions on how to organize your content for a good indexing and pagerank on search engines at [Gallant Fish Internet Marketing](http://gallantfish.com/blog/)
 
 Check out [Graphic WP Sitemap](http://socialblogsitewebdesign.com/wordpress-plugins/graphic-wp-sitemap) to buy the extra code to use this great plugin on any page or sidebar, for bug reports, updates and help.
 
 == Changelog ==
 
-= 1.1.0 =
+= 0.9.0 =
 
-Fixed ul to keep compatibility with navigation menus created with wp_list_pages(), prior to wp menus. If your sitemap looked weird in your old theme, it'll look fine now.
+Graphic WP Sitemap Release.
 
 = 1.0.0 =
 
 Sitemap CSS rules made more specific to prevent being overridden by theme's
 Enabled for paid upgrade to make the Sitemap public through pages or sidebars.
 
-= 0.9.0 =
-
-Graphic WP Sitemap Release.
