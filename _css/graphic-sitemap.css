@@ -1,6 +1,6 @@
 /* Z-index of #mask must lower than #boxes .window */
 #Gsm_mask {
-	position:absolute!important;
+	position:absolute;
 	z-index:4999;
 	background-color:#000;
 	display:none;
@@ -12,17 +12,20 @@
 	filter: alpha(opacity=50);
 	opacity: 0.8;
 }
-
+   
+/*#Gsm_container {
+	position: relative;
+}*/
 #Gsm_modal_outer {
-	width: 100%!important;
+	width: 100%;
 	background-color: #D8ECEC;
 	/*background-color: rgba(0,178,178, .2);*/
 	-moz-box-shadow: inset 0px 0px 7px #000000;
 	box-shadow: inset 0px 0px 7px #000000;
 }
 #Gsm_modal_outer.fullscreen {
-	position: absolute!important;
-	padding: 0px!important;
+	position: absolute;
+	padding: 0px;
 	z-index: 5000;
 }
 
@@ -32,64 +35,74 @@
 	font-size: 12px;
 	font-weight: normal;
 	text-decoration: underline;
-	position: absolute!important;
-	top: 10px!important;
+	position: absolute;
+	top: 10px;
 }
 #Gsm_modal_outer #Gsm_modal_inner a#Gsm_fullscreen {
 	left: 10px;
-	z-index:5010!important;
+	z-index:5010;
 }
 #Gsm_modal_outer.fullscreen #Gsm_modal_inner a#Gsm_fullscreen {
 	display: none;
 }
 #Gsm_modal_outer #Gsm_modal_inner a.close {
 	right: 10px;
-	z-index: 9999!important;
+	z-index: 9999;
 	display: none;
 }
 #Gsm_modal_outer.fullscreen #Gsm_modal_inner a.close {
 	display: block;
 }
 #Gsm_modal_inner {
-	margin: 0px!important;
-	padding: 0!important;
+	margin: 0px;
+	padding: 0;
+	/*background-image: url(../_img/ia_header.gif);
+	background-repeat: no-repeat;
+	background-position: right top;*/
 	font-family: verdana;
-	width: 100%!important;
-	overflow: auto!important;
-	position: relative!important;
+	width: 100%;
+	overflow: auto;
+	position: relative;
 }
 #Gsm_modal_outer .fullscreen #Gsm_modal_inner {
-	position: absolute!important;
-	z-index: 5020!important;
+	position: absolute;
+	z-index: 5020;
 	left: 0px;
-	width: 100%!important;
+	width: 100%;
 }
 ul#ia_topmenu {
-	overflow: auto!important;
-	width: 100%!important;
-	padding: 0!important;
-	margin: 0px!important;
+	overflow: auto;
+	width: 100%;
+	padding: 0;
+	margin: 0px;
 }
 #Gsm_modal_outer #Gsm_modal_inner li#home_li {
-	padding-bottom: 30px!important;
+	padding-bottom: 30px;
 	display: block;
 	text-align: center;
-	overflow: auto!important;
-	width: 100%!important;
-	margin: 0!important;
+	overflow: auto;
+	width: 100%;
+	margin: 0;
 	font-style: normal;
 	line-height: 30px;
 	list-style: none;
 }
-
+/*#Gsm_modal_outer a#Gsm_homelink {
+	color: #000;
+	width: 100%;
+	text-align: center;
+	z-index: 9999;
+	margin: 0px;
+	position: relative;
+}*/
 #Gsm_modal_outer #Gsm_modal_inner a#Gsm_homelink {
 	color: #000;
 	font-size: 16px;
 	line-height: 30px;
-	position: absolute!important;
+	position: absolute;
 	text-align: center;
-	margin: 0!important;
-	width: 100%!important;
+	margin: 0;
+	width: 100%;
 	padding-top: 15px;
 	padding-right: 55px;
 	padding-left: 55px;
@@ -102,15 +115,33 @@ ul#ia_topmenu {
 	background-position: left top;
 	background-repeat: no-repeat;
 	width: 120px;
-	padding: 20px 0 40px 60px;
+	padding: 20px 0 60px 60px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	overflow: visible!important;
+	overflow: visible;
 	display: block;
-	white-space: nowrap!important;
+	white-space: nowrap;
 	line-height: 30px;
 }
+/*#graphic-wp-sitemap .inside #Gsm_modal_outer a#Gsm_homelink strong {
+	padding: 20px 0 46px 60px;
+}
+a#Gsm_homelink strong {
+	font-size: 16px;
+	background-image: url(../_img/Page_1b.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	width: 250px;
+	line-height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-left: 60px;
+	text-align: left;
+	overflow: visible;
+	display: block;
+}*/
 
 #Gsm_modal_outer #Gsm_modal_inner h1 {
 	font-family: Verdana, Geneva, sans-serif;
@@ -122,7 +153,7 @@ ul#ia_topmenu {
 	padding-top: 70px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	position: absolute!important;
+	position: absolute;
 	z-index: 3998;
 	padding-left: 20px;
 }
@@ -149,7 +180,7 @@ ul#ia_topmenu {
 	width: 100%;
 	display: block;
 	margin: 0px;
-	padding: 74px 20px 20px;
+	padding: 94px 20px 20px;
 	white-space: nowrap;
 }
 #Gsm_modal_outer #Gsm_modal_inner li li {
@@ -189,8 +220,11 @@ ul#ia_topmenu {
 	font-weight: bold;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
-	top: 0px!important;
-	padding: 0px;
+	top: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
 }
 
 #Gsm_modal_outer #Gsm_modal_inner li li a
@@ -217,7 +251,7 @@ ul#ia_topmenu {
 	color: #066;
 	font-size: 12px;
 	line-height: 16px;
-	overflow: hidden!important;
+	overflow: hidden;
 }
 #Gsm_modal_outer #Gsm_modal_inner li li li li a
 {
@@ -237,7 +271,7 @@ ul#ia_topmenu {
 	padding-top: 30px;
 	margin-top: -30px;
 	background-repeat: no-repeat;
-	position: static!important;
+	position: static;
 	top: auto;
 	width: auto;
 	list-style-type: none;
@@ -262,7 +296,7 @@ ul#ia_topmenu {
 	margin-bottom: -6px;
 	margin-top: 0px;
 	margin-left: -6px;
-	overflow: hidden!important;
+	overflow: hidden;
 	white-space: nowrap;
 	list-style-type: none;
 }
@@ -280,7 +314,7 @@ ul#ia_topmenu {
 	background-color: rgba(255, 255, 255, .8);
 	-moz-border-radius: 8px;
 	border-radius: 8px;
-	position: relative!important;
+	position: relative;
 	z-index: 500;
 	width: 280px;
 	display: block;
@@ -299,12 +333,12 @@ ul#ia_topmenu {
 #Gsm_modal_outer #Gsm_modal_inner li li li li a:hover,
 #Gsm_modal_outer #Gsm_modal_inner li li li li:hover a {
 	color: #F30;
-	overflow: visible!important;
+	overflow: visible;
 }
 
 /* -------------------------------------- */
 #Gsm_modal_outer #Gsm_modal_inner p.Gsm_linklove {
-	position: absolute!important;
+	position: absolute;
 	right: 10px;
 	bottom: 10px;
 	font-weight: normal;
